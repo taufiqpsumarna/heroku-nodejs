@@ -2,7 +2,11 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.json({
+    number: 1,
+    name: 'John',
+    gender: 'male'
+  });
 })
 
 app.set('port', (process.env.PORT || 8080));
