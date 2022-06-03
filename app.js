@@ -4,8 +4,8 @@ const app = express()
 app.get('/', function (req, res) {
   res.json({
     number: 1,
-    name: 'John',
-    gender: 'male'
+    nama: 'Okyza Maherdy Prabowo',
+    npm: '33220025'
   });
 })
 
